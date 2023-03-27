@@ -12,6 +12,8 @@ class ElementsPage(BasePage):
         self.icon = WebElement(driver, 'header > a > img')
         self.btn_sidebar_first = WebElement(driver, 'div:nth-child(1) > span > div')
         self.btn_sidebar_first_textbox = WebElement(driver, 'div:nth-child(1) > div > ul > #item-0')
+        self.btns_firt_menu = WebElement(driver, 'div:nth-child(1) > div > ul > li')
+
 
 
     # def equal_url(self):
